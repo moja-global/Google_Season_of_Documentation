@@ -2,9 +2,9 @@
 
 ## Table of Contents
 
-* [Core 2.0](#core 2.0)
+* [Core 2.0](#core)
 
-## Core 2.0
+## Core
 
 * Refactoring for improved code clarity, paying down technical debt.
 
