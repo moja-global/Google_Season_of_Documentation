@@ -1,10 +1,10 @@
-# Core 2.0
+# FLINT Development Plans
 
 ## Table of Contents
 
-* [Pointers](#pointers)
+* [Core 2.0](#core 2.0)
 
-## Pointers
+## Core 2.0
 
 * Refactoring for improved code clarity, paying down technical debt.
 
@@ -27,3 +27,34 @@
 * Synthesis and aggregation of model values when working with supra-individual scales (30cm)  or daily temporal resolution [possibly core 3.0] 
 
 * How do we enable statistically ‘learning’ models (aka ‘online models’ or ‘checkpointing’) for adaptive forecasting - updating projections as new data become available.
+
+## Science 2.0
+
+* Enable as many different additional modules as possible- grasslands, permafrost
+
+* Improved representation of forest structure for size based modelling of multi-species cohort productivity. Leverage existing models, but requires optimisation of potentially large outputs.
+
+* Improved environmental covariates (soil, aspect, hydrology) to avoid assigning pixel based yield curves. 
+
+* Vertical stratification of soil layers, sub-annual time resolution for seasonal environmental changes.
+
+* Current architecture design and limitations
+    * the space vs. time loop
+    * Cohort tracking
+    * Data aggregation
+    * Dynamic unpacking
+    * Database structure
+    * Build toolkit
+    * Pixel independence makes things like fire-risk propagation difficult
+### Performance targets and hardware requirements
+
+* $$ vs time vs complexity vs resolution
+
+* Are there existing bottlenecks that can be designed around?
+
+* Model runtime often faster than post-processing
+
+* Could publish benchmarks as best-practice implementations and regression tests for base library.
+
+
+
