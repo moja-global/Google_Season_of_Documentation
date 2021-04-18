@@ -1,8 +1,5 @@
 # FLINT Development Plans
 
-## Table of Contents
-
-* [Core 2.0](#core)
 
 ## Core
 
@@ -28,7 +25,7 @@
 
 * How do we enable statistically ‘learning’ models (aka ‘online models’ or ‘checkpointing’) for adaptive forecasting - updating projections as new data become available.
 
-## Science 2.0
+## Science
 
 * Enable as many different additional modules as possible- grasslands, permafrost
 
@@ -46,6 +43,8 @@
     * Database structure
     * Build toolkit
     * Pixel independence makes things like fire-risk propagation difficult
+
+
 ### Performance targets and hardware requirements
 
 * $$ vs time vs complexity vs resolution
@@ -55,6 +54,46 @@
 * Model runtime often faster than post-processing
 
 * Could publish benchmarks as best-practice implementations and regression tests for base library.
+
+## Maturing the flint ecosystem
+
+### Support for exising and future implementations
+
+* Existing - 
+GCBM (Canadal; Chile; Belize), FLINTpro (FullCAM), SLEEK (+/-), iNCAS, 
+
+* Future -
+FAO + SEPAL - containerised Tier 1, good onramp for developing countries but comes with maintenance burden
+
+* Agriculture and other land uses- required for spatial coverage without overlaps
+
+### Features that moja should maintain vs. endorse community led projects (aka minimum requirements)
+
+* Data pre-processing for a country
+
+* Model run - retrospective + projective
+
+* Compare scenarios for a few key indicators (e.g. area) - aka reporting
+
+* Visualisation
+
+* Case studies - tier 1 spatial analysis, exemplify benefits of spatial modelling always with focus of long term impact on GHG and land use change, policy making should be based on sound science. Otherwise advocacy neutral.
+
+* What would data and validation standards for modules look like?
+
+## Deployments and interfaces
+* Improving usability and onboarding
+* Policy makers - what are they going to receive?
+* Report makers - what do they need in order to deliver to policy makers?
+
+
+## Optimisation and coordination
+* Begin prioritising foundational work items/design decisions required to enable future development
+* Reduced barriers to entry
+
+* Breadcrumbs to increasing complexity
+
+* Improved data pre-processing for non-technical users
 
 
 
