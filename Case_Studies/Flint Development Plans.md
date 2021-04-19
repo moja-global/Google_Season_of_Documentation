@@ -2,11 +2,11 @@
 
 ## Table of contents
 
-* [Core 2.0](#core)
-
-
-<h2 id="core">Introduction to everything</h2>
-
+* [Core 2.0](#core-20)
+* [Science 2.0](#science-20)
+* [Maturing the FLINT ecosystem](#maturing-the-flint-ecosystem)
+* [Deployments and interfaces](#deployments-and-interfaces)
+* [Optimisation and coordination](#optimisation-and-coordination)
  
 ## Core 2.0
 
@@ -32,7 +32,7 @@
 
 * How do we enable statistically ‘learning’ models (aka ‘online models’ or ‘checkpointing’) for adaptive forecasting - updating projections as new data become available.
 
-## Science
+## Science 2.0
 
 * Enable as many different additional modules as possible- grasslands, permafrost
 
