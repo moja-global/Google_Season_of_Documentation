@@ -1,7 +1,14 @@
 # FLINT Development Plans
 
+## Table of contents
 
-## Core
+* [Core 2.0](#core)
+
+
+<h2 id="core">Introduction to everything</h2>
+
+ 
+## Core 2.0
 
 * Refactoring for improved code clarity, paying down technical debt.
 
